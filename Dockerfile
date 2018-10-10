@@ -18,7 +18,7 @@ RUN apt-get install -y nano
 #Download Centrifuge
 RUN wget https://github.com/infphilo/centrifuge/archive/v1.0.4-beta.zip
 RUN unzip v1.0.4-beta.zip -d /
-RUN mv v1.0.4-beta centrifuge
+RUN mv centrifuge-1.0.4-beta centrifuge
 RUN rm v1.0.4-beta.zip
 
 #Download NCBI-Blast - Required for centrifuge-download
