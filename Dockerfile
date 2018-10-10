@@ -24,7 +24,7 @@ RUN rm v1.0.4-beta.zip
 #Download NCBI-Blast - Required for centrifuge-download
 RUN wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.7.1+-x64-linux.tar.gz
 RUN tar -xvzf ncbi-blast-2.7.1+-x64-linux.tar.gz
-RUN mv ncbi-blast-2.7.1+-x64-linux ncbi-blast
+RUN mv ncbi-blast-2.7.1+ ncbi-blast
 RUN rm ncbi-blast-2.7.1+-x64-linux.tar.gz
 
 #Centrifuge Indexes
