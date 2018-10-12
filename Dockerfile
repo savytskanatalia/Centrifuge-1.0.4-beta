@@ -22,5 +22,4 @@ RUN wget https://github.com/infphilo/centrifuge/archive/v1.0.4-beta.zip
 RUN unzip v1.0.4-beta.zip -d /
 RUN mv centrifuge-1.0.4-beta centrifuge
 RUN rm v1.0.4-beta.zip
-RUN cd centrifuge-1.0.4-beta
 RUN make
